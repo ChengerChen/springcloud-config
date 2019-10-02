@@ -4,7 +4,7 @@ spring:
   profiles: dev
   application:
     name: springcloud-config-client
-eureks:
+eureka:
   client:
     service-url:
       defaultZone: http://eureka-dev.com:7001/eureka
