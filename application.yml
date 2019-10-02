@@ -11,5 +11,5 @@ spring:
 spring:
   profile: test	#测试环境
   application:
-    name: springcloud=config-test
+    name: springcloud-config-test
 #请保存为utf-8编码格式
