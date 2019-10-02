@@ -4,12 +4,12 @@ spring:
     - dev
 ---
 spring:
-  profile: dev	#开发环境
+  profiles: dev	#开发环境
   application:
     name: springcloud-config-dev
 ---
 spring:
-  profile: test	#测试环境
+  profiles: test	#测试环境
   application:
-    name: springcloud=config-test
+    name: springcloud-config-test
 #请保存为utf-8编码格式
